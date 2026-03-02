@@ -1,0 +1,15 @@
+---
+
+# File patterns to check
+templates:
+  - test/*.yaml
+
+# File patterns to ignore
+ignore_templates:
+  - .yamllint.yml
+  - .pre-commit-config.yaml
+  - .checkov.yaml
+  - .github/**/*.yaml
+  - .cfnlintrc.yaml
+  - .woke.yaml
+  - ruleset-test1.json

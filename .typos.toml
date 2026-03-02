@@ -1,0 +1,24 @@
+# https://github.com/crate-ci/typos/blob/master/docs/reference.md
+
+[files]
+extend-exclude = [
+  ".git/*",
+  "node/*",
+  "node_modules/*",
+  "results/*",
+  "console,results/*"
+]
+ignore-hidden = false
+ignore-files = true
+ignore-dot = true
+ignore-vcs = true
+ignore-global = true
+ignore-parent = true
+
+[default]
+binary = false
+check-filename = true
+check-file = true
+unicode = true
+# locale = "en-gb"
+locale = "en-gb"

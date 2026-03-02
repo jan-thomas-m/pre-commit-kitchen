@@ -1,0 +1,4 @@
+shell=zsh
+enable=all
+#severity=style
+# format=gcc
